@@ -18,28 +18,27 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 文章及其子菜单
 	links.push({
-	name: "Blog",
-	url: "/archive/",
-	icon: "material-symbols:article",
-});
+		name: "Blog",
+		url: "/archive/",
+		icon: "material-symbols:article",
+	});
 
-links.push({
-	name: "Mars",
-	url: "/mars/",
-	icon: "material-symbols:rocket-launch",
-});
+	links.push({
+		name: "Mars",
+		url: "/mars/",
+		icon: "material-symbols:rocket-launch",
+	});
 
-links.push({
-	name: "Program",
-	url: "/program/",
-	icon: "material-symbols:code",
-});
+	links.push({
+		name: "Program",
+		url: "/program/",
+		icon: "material-symbols:code",
+	});
 
-links.push({
-	name: "Image",
-	url: "/image/",
-	icon: "material-symbols:photo-library",
-		],
+	links.push({
+		name: "Image",
+		url: "/image/",
+		icon: "material-symbols:photo-library",
 	});
 
 	//社交及其子菜单
